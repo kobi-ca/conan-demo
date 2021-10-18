@@ -13,5 +13,6 @@ my profiles are: \
    * default
    * default-abi11
 6. Use -DCMAKE_TOOLCHAIN_FILE=conan_toolchain.cmake
-7. target_link_libraries using fmt::fmt
-8. test_package is used with conan create and conanfile.py (not used here as of 10/17/2021)
+7. use find_package to bring in packages from the conan cache
+8. target_link_libraries using fmt::fmt
+9. test_package is used with conan create and conanfile.py (not used here as of 10/17/2021)
